@@ -2,5 +2,5 @@ build:
     odin build .
 
 test:
-    fdfind ".*\.txt" | ./glue
+    fdfind -I ".*\.txt" | ./glue 
 
